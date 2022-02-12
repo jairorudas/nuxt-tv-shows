@@ -1,4 +1,4 @@
-# nuxt-video
+# baby-step-element
 
 ## Build Setup
 
