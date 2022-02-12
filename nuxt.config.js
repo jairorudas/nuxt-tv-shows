@@ -33,7 +33,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // Doc: https://www.primefaces.org/primevue/showcase-v2/#/setup
+    // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
@@ -62,6 +62,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ['vuesax'],
+    transpile: [''],
   },
 }
