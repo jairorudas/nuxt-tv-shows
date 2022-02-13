@@ -20,7 +20,7 @@ export default {
 
 <style lang="postcss">
     html {
-        background-color: rgb(20, 20, 20);
+        background-color: #0c0c0c;
         @apply text-white
     }
 </style>
