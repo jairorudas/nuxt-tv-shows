@@ -23,4 +23,7 @@ export default {
         background-color: #0c0c0c;
         @apply text-white
     }
+    main {
+        overflow: hidden;
+    }
 </style>
