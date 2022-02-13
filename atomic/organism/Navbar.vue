@@ -2,78 +2,60 @@
   <nav class="w-screen flex justify-between">
     <ul>
       <li>
-        <NuxtLink to="/">
-          <el-link type="primary">
-              <img src="@/static/netflix-logo.png" class="w-[92px]" />
-          </el-link>
+        <NuxtLink to="/" tag="el-link" type="primary">
+          <img src="@/static/netflix-logo.png" class="w-[92px]" />
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/">
-          <el-link type="primary">Inicio</el-link>
+        <NuxtLink to="/" tag="el-link" type="primary"> Inicio </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/series" tag="el-link" type="primary"> Séries </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/filmes" tag="el-link" type="primary">
+          Películas
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/series">
-          <el-link type="primary">Séries</el-link>
+        <NuxtLink to="/tranding" tag="el-link" type="primary">
+          Mas vistos
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/filmes">
-          <el-link type="primary">Películas</el-link>
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/tranding">
-          <el-link type="primary">Mas vistos</el-link>
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/">
-          <el-link type="primary">Mi Lista</el-link>
+        <NuxtLink to="/tranding" tag="el-link" type="primary">
+          Mi Lista
         </NuxtLink>
       </li>
     </ul>
     <ul>
       <li>
-        <NuxtLink to="/">
-          <el-link type="primary"
-            ><i class="el-icon-search text-lg hover:list-none"></i
-          ></el-link>
+        <NuxtLink to="/" tag="el-link" type="primary">
+          <i class="el-icon-search text-lg hover:list-none"></i>
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/">
-          <el-link type="primary" class="">Infantil</el-link>
+        <NuxtLink to="/" tag="el-link" type="primary"> Infantil </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/" tag="el-link" type="primary">
+          <el-badge value="1" class="item">
+            <i class="el-icon-bell text-lg"></i>
+          </el-badge>
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/">
-          <el-link type="primary">
-            <el-badge value="1" class="item">
-              <i class="el-icon-bell text-lg"></i>
-            </el-badge>
-          </el-link>
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/">
-          <el-link type="primary">
-            <span
-              class="
-                flex
-                content-center
-                place-content-center place-items-center
-              "
-            >
-              <el-avatar
-                shape="square"
-                size="small"
-                src="https://randomuser.me/api/portraits/women/44.jpg"
-              />
-              <i class="el-icon-arrow-down !ml-4" />
-            </span>
-          </el-link>
+        <NuxtLink to="/" tag="el-link" type="primary">
+          <span
+            class="flex content-center place-content-center place-items-center"
+          >
+            <el-avatar
+              shape="square"
+              size="small"
+              src="https://randomuser.me/api/portraits/women/44.jpg"
+            />
+            <i class="el-icon-arrow-down !ml-4" />
+          </span>
         </NuxtLink>
       </li>
     </ul>
@@ -99,6 +81,6 @@ ul {
   }
 }
 .el-badge__content {
-    @apply !border-none
+  @apply !border-none;
 }
 </style>
